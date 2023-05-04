@@ -20,8 +20,7 @@ public class CalculadoraSimples{
 
             if(op == 1){
                 System.out.println("\n\t\t\tSoma\n");
-                //Pedro Araujo
-
+                
                 //Entrada
                 System.out.println("Informe: N1 ");
                 n1 = entrada.nextInt();
@@ -32,12 +31,11 @@ public class CalculadoraSimples{
                 total = n1 + n2;
 
                 //Saida
-                System.out.printf("%d + %d = %d", n1, n2, total);
+                System.out.printf("Resultado:%d + %d = %d", n1, n2, total);
 
             }else if(op == 2){
                 System.out.println("\n\t\t\tSubtração\n");
-                //Gabriel Crendendio
-
+            
                 //Entrada
                 System.out.println("Informe N1:");
                 n1 = entrada.nextInt();
@@ -48,11 +46,10 @@ public class CalculadoraSimples{
                 total = n1 - n2;
 
                 //saida
-                System.out.printf("%d - %d = %d", n1, n2, total);
+                System.out.printf("Resultado: %d - %d = %d", n1, n2, total);
 
             }else if(op == 3){
                 System.out.println("\n\t\t\tMultiplicação\n");
-                //Gabriel Credendio
 
                 //Entradas
                 System.out.println("Informe N1:");
@@ -64,11 +61,10 @@ public class CalculadoraSimples{
                 total = n1 * n2;
 
                 //saida
-                System.out.printf("%d * %d = %d", n1, n2, total);
+                System.out.printf("Resultado: %d * %d = %d", n1, n2, total);
 
             }else if(op == 4){
                 System.out.println("\n\t\t\tDivisão\n");
-                //Gabriel Alves Santos
 
                 //Entradas
                 System.out.println("informe N1:");
@@ -80,12 +76,12 @@ public class CalculadoraSimples{
                 total = n1 / n2;
 
                 //Saida
-                System.out.printf("%d / %d = %d", n1, n2, total);
+                System.out.printf("Resultado: %d / %d = %d", n1, n2, total);
 
             }else if(op == 5){
-                System.out.println("\n\t\t\tTchau!!\n");
+                System.out.println("\n\t\t\tObrigado, Tchau!\n");
             }else{
-                System.out.println("Opção" +op + "incorreta");
+                System.out.println("Opção" +op + "invalida");
             }
         }while(op!=5);
     }
