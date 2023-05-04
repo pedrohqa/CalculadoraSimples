@@ -68,7 +68,7 @@ public class CalculadoraSimples{
 
             }else if(op == 4){
                 System.out.println("\n\t\t\tDivisão\n");
-                //Pedro Araujo
+                //Gabriel Alves Santos
 
                 //Entradas
                 System.out.println("informe N1:");
